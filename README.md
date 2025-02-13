@@ -21,6 +21,8 @@ ____________________________________________
 
 8.Some new Inline-Tags: Bold (strong), Italic (i), Underline (u), Emphasis (em), Highlighting or Coping some part in main text (span).
 
+9.How to anchor-linked another webpage, like in this project I anchor-linked WhatsApp, email and LinkedIn profile. So visitors may reach me via WhatsApp or Email, or if they want to see my LinkedIn profile without breaking a sweat.
+
 ____________________________________________
 From this project, in CSS side, I learnt:
 ____________________________________________
