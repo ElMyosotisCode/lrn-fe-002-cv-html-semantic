@@ -15,13 +15,15 @@ ____________________________________________
 
 5.New terms in HTML: "Tag", "Content", and when combined it become "Elements".
 
-6.Some new Container-Tags: Headers (h1, h2, etc.), Paragraph (p), Address (address), and many more.
+6.Another new term in HTML: "Aria-label", this is an attribute given to element, to label a section in Web Page. The main purpose of "Aria-Label" is for the Screen Reader to know and tell the user explicitly about the section based on the label we gave.
 
-7.Some new Void-Tags: New line (br), Horizontal Separator Line (hr), Linker (link).
+7.Some new Container-Tags: Headers (h1, h2, etc.), Paragraph (p), Address (address), and many more.
 
-8.Some new Inline-Tags: Bold (strong), Italic (i), Underline (u), Emphasis (em), Highlighting or Coping some part in main text (span).
+8.Some new Void-Tags: New line (br), Horizontal Separator Line (hr), Linker (link).
 
-9.How to anchor-linked another webpage, like in this project I anchor-linked WhatsApp, email and LinkedIn profile. So visitors may reach me via WhatsApp or Email, or if they want to see my LinkedIn profile without breaking a sweat.
+9.Some new Inline-Tags: Bold (strong), Italic (i), Underline (u), Emphasis (em), Highlighting or Coping some part in main text (span).
+
+10.How to anchor-linked another webpage, like in this project I anchor-linked WhatsApp, email and LinkedIn profile. So visitors may reach me via WhatsApp or Email, or if they want to see my LinkedIn profile without breaking a sweat.
 
 ____________________________________________
 From this project, in CSS side, I learnt:
