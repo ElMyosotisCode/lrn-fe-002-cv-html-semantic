@@ -15,11 +15,11 @@ Also I learned how to use `aria` attributes to make my web page more accessible 
 
 ## Screenshots
 
-![Web Page Screenshot 01](https://github.com/ElMyosotisCode/webdev-lrn-fe-001-cv-framework/blob/main/images/webpage-screenshot-01.JPG)
+![Web Page Screenshot 01](https://github.com/ElMyosotisCode/webdev-lrn-fe-002-cv-html-semantic/blob/main/images/webpage-screenshot-01.JPG)
 
-![Web Page Screenshot 02](https://github.com/ElMyosotisCode/webdev-lrn-fe-001-cv-framework/blob/main/images/webpage-screenshot-02.JPG)
+![Web Page Screenshot 02](https://github.com/ElMyosotisCode/webdev-lrn-fe-002-cv-html-semantic/blob/main/images/webpage-screenshot-02.JPG)
 
-![Web Page Screenshot 03](https://github.com/ElMyosotisCode/webdev-lrn-fe-001-cv-framework/blob/main/images/webpage-screenshot-03.JPG)
+![Web Page Screenshot 03](https://github.com/ElMyosotisCode/webdev-lrn-fe-002-cv-html-semantic/blob/main/images/webpage-screenshot-03.JPG)
 
 ## Roadmap
 
