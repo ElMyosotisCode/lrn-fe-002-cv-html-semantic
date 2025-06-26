@@ -1,47 +1,43 @@
 
-# Web Dev - F End Learning Project #002
+# Misael's F. End Learning Day-02 - "CV ATS Web Page part-02"
 
-Hello... This is my learning project to deepen my skill in "Semantic HTML".
+Hello... 😃👋🏻  
+It's me Misael Randy Limpaty (ElMyosotisCode) your future Front End Developer Expert.
 
-From this projects, in HTML side, I learnt:
-____________________________________________
-1.In HTML, I have to type the source code based on the relevance of the content. For example, if the content I want to type is the main title of the website, I have to wrap that with "header" tag in HTML.
+This project is the continuation of "ATS Based CV".
 
-2.Seperate HTML Structure file with CSS Styling file which in Web Dev terms, it's called utilizing "External CSS".
+In this project I added all of content, text, and paragraph I want to show in my CV. ✌
 
-3.How to use Header section as navigation bar in HTML to quick-access a part/section in a Web page.
+--
 
-4.Create simple Footer section to show Copyrights of the Web page.
+What I learned in this project is how to use semantic HTML tags to make my web page more accessible and SEO friendly.
+Also I learned how to use `aria` attributes to make my web page more accessible for screen readers.
 
-5.New terms in HTML: "Tag", "Content", and when combined it become "Elements".
+## Screenshots
 
-6.Another new term in HTML: "Aria-label", this is an attribute given to element, to label a section in Web Page. The main purpose of "Aria-Label" is for the Screen Reader to know and tell the user explicitly about the section based on the label we gave.
+![Web Page Screenshot 01](https://github.com/ElMyosotisCode/webdev-lrn-fe-001-cv-framework/blob/main/images/webpage-screenshot-01.JPG)
 
-7.Some new Container-Tags: Headers (h1, h2, etc.), Paragraph (p), Address (address), and many more.
+![Web Page Screenshot 02](https://github.com/ElMyosotisCode/webdev-lrn-fe-001-cv-framework/blob/main/images/webpage-screenshot-02.JPG)
 
-8.Some new Void-Tags: New line (br), Horizontal Separator Line (hr), Linker (link).
+![Web Page Screenshot 03](https://github.com/ElMyosotisCode/webdev-lrn-fe-001-cv-framework/blob/main/images/webpage-screenshot-03.JPG)
 
-9.Some new Inline-Tags: Bold (strong), Italic (i), Underline (u), Emphasis (em), Highlighting or Coping some part in main text (span).
+## Roadmap
 
-10.How to anchor-linked another webpage, like in this project I anchor-linked WhatsApp, email and LinkedIn profile. So visitors may reach me via WhatsApp or Email, or if they want to see my LinkedIn profile without breaking a sweat.
+So far here are my plan in this project  
+*May change in the future
 
-____________________________________________
-From this project, in CSS side, I learnt:
-____________________________________________
-1.How to manage margins (in a basic level context).
+- ☑ **HTML** | Base structure
 
-2."rem" as a universal unit to indicate size value in the field of HTML.
+- ☑ **HTML** | Every section's content
 
-3.How to use "root" as a bank of variable, which I can add some value in it for later use. And also to reduce redundancy and repetition, but also improves maintenence quality.
+- ☑ **HTML** | Opening tags attributes for easier CSS modification
 
-4.How to use "*" as a default value of any styling inside the CSS sheet.
+- ☑ **HTML** | Aria accessibility
 
-5.Text styling: Justify, Text-alligning, Word-spacing, Coloring.
+- ⬜ **CSS** | Content styling
 
-6.How to utilize color to debugging around confusing margins and content.
+- ⬜ **CSS** | Content placement
 
-7.A little bit about how to use simple media querry to improve Web page flexibility when opened on a Smartphone.
+- ⬜ **CSS** | Hover animation for anchor-link
 
-# Hi, I'm Misael! 👋
-
-Web Dev Full Stack wanna be in 2025. For now I am learning Front End Dev from basics. 😀
+- ⬜ **CSS** | Card view box model

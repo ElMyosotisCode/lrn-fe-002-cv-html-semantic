@@ -6,331 +6,374 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Learning Project 02 - Semantic Structure of CV ATS Friendly</title>
+<title>F.End Learning Day 02 - ATS CV HTML Semantic</title>
+
 </head>
 
 <body>
 <!-- # HEADER -->
-<header id="main-header">
-    
-    <!-- Navigation Menu -->
-    <nav aria-label="Main Navigation Menu">
+<header role="banner">
+    <!-- -# Navigation Bar -->
+    <nav>
         <ul>
             <li>
                 <a href="#summary">Summary</a>
             </li>
             <li>
-                <a href="#org-experience">Organization Experience</a>
+                <a href="#work-exp">Working Experience</a>
             </li>
             <li>
-                <a href="#education">Education</a>
+                <a href="#org-exp">Organization Experience</a>
+            </li>
+            <li>
+                <a href="#education">Educational Background</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
             </li>
         </ul>
     </nav>
+    <!-- -# _______________ -->
 
-    <!-- Profile Section -->
-    <section id="profile">
-        <!-- *Full Name -->
-        <h1>
-            Misael Randy Limpaty
+    <!-- -# Personal Information -->
+    <section
+        class="personal-info"
+        id="personal-info"
+        role="region"
+        aria-label="Personal Information">
+        <!-- Full Name -->
+        <h1 class="full-name"
+            aria-label="Full Name">
+            Randy Limpaty
         </h1>
 
-        <!-- *Position/Job Occupation -->
-        <p class="job-title">
-            Junior Frontend Developer
+        <!-- Position/Job Occupation -->
+        <p class="job-title"
+            aria-label="Current Position/Job Occupation">
+            Junior Front-End Developer
         </p>
 
-        <!-- *Domicile & Contact Information -->
-        <address class="domicile-and-contact">
-            Surabaya, Indonesia | +62 813-4567-8901 
-            <a
-                href= "https://wa.me/+6281345678901"
-                title= "Contact me via WhatsApp"
-                target= "_blank">
+        <!-- Domicile & Contact Information -->
+        <address class="domicile-and-contact" 
+            role="region"
+            aria-label="Domicile and Contact Information">
+            
+            <span aria-label="I live in">
+                Surabaya, Indonesia 
+            </span>
+            
+            |
+            
+            <a 
+                aria-label="Contact me via WhatsApp"
+                href="https://wa.me/+6281315063600"
+                title="Contact me via WhatsApp" 
+                target="_blank">
                 (WhatsApp)
-            </a> 
-            |
-            <a
-                href= "mailto:dummy.email.notreal@gmail.com"
-                title= "Send me an email"
-                target= "_blank">
-                dummy.emnail.notreal@gmail.com 
             </a>
-            |
-            <a
-                href= "https://www.linkedin.com/in/dummy-link/"
-                title= "View my LinkedIn Profile"
-                target= "_blank">
-                LinkedIn
+
+            +62 813-1506-3600
+
+            <a 
+                aria-label="Send me an email"
+                href="mailto:randy.limpaty@gmail.com"
+                title="Send me an email"
+                target="_blank">
+                (Email)
             </a>
-            (dummy-link) 
+
+            randy.limpaty@gmail.com |
+
+            <a 
+                aria-label="Visit my LinkedIn profile"
+                href="https://linkedin.com/in/misael-randy-limpaty/"
+                title="Visit my LinkedIn profile"
+                target="_blank">
+                (LinkedIn)
+            </a>
+
+            Misael Randy Limpaty |
+
+            <a
+                aria-label="Visit my GitHub profile"
+                href="https://github.com/elmyosotiscode"
+                title="Visit my GitHub profile"
+                target="_blank">
+                (GitHub)
+            </a>
+
+            ElMyosotisCode
         </address>
     </section>
+    <!-- -# ____________________ -->
 </header>
-<!-- # End of HEADER -->
+<!-- # End of Header -->
 
-<!-- # MAIN CONTENT -->
+<!-- # MAIN -->
 <main>
-    <!-- Professional Summary -->
-    <section id="summary">
-        <h2>
+    <!-- -# Summary Section -->
+    <article class="summary__container"
+        id="summary"
+        aria-label="Professional Summary"
+        role="region">
+
+        <h2 class="summary__title">
             SUMMARY
         </h2>
+        <hr>
 
-        <hr/>
-
-        <p class="professional-summary">
-            Detail-oriented and eager to learn recent graduate Junior Front End Developer
-            with a Bachelor's Degree in Computer Engineering. 
-            Skilled in designing and developing website interfaces using HTML, CSS, and JavaScript,
-            as well as frameworks like TailwindCSS and React.JS. 
-            Passionate about learning new technologies and crafting visually compelling website interfaces
-            for engaging user experiences. 
-            Currently seeking an entry-level position to leverage technical skills and academic knowledge
-            in crafting innovative front-end solutions for websites.
+        <p class="summary__description">
+            An eager to learn, detail-oriented and passionate Junior Front End Developer
+            with a Computer Engineering Bachelor's Degree.
+            Proficient in designing and developing website interfaces
+            using HTML, CSS, and JavaScript, along with frameworks like TailwindCSS and React.JS.
+            Eager to contribute to developing innovative and user-friendly web solutions.
         </p>
-    </section>
+    </article>
+    <!-- -# _______________ -->
 
-    <!-- Organization Experience -->
-    <section id="org-experience">
-        <h2>
+    <!-- -# Working Experience -->
+    <article class="work-exp__container"
+        id="work-exp"
+        aria-label="Working Experience"
+        role="region">
+
+        <h2 class="work-exp__title">
+            WORKING EXPERIENCE
+        </h2>
+        <hr>
+
+        <!-- --# Job Experience 1 -->
+        <h3 class="work-exp__job-title"
+            aria-label="1st Job Experience">
+            FREELANCER CLIENT PROJECT - Remote, Indonesia <br>
+            Digital Product Designer 
+            <time datetime="2025-02-01/2025-06-30">
+                (February 2025 - June 2025)
+            </time>
+        </h3>
+
+        <ul class="work-exp__brief-points-container"
+            aria-label="Brief Points of 1st Job Experience">
+            <div class="work-exp__brief-points-item">    
+                <li>
+                    Designed 3 major poster campaigns (30 layouts in total) using a 3×3 grid to optimize
+                    information flow and visual impact.
+                </li>
+                <li>
+                    Integrated AI tools (DeepSeek R1, Leonardo.AI, Tensor.Art) to accelerate concept-to-final
+                    workflow by 30%.
+                </li>
+                <li>
+                    Utilized Adobe Photoshop & Canva for high-fidelity outputs maintaining brand consistency
+                    from playful to elegant themes.
+                </li>
+            </div>
+        </ul>
+    </article>
+    <!-- -# __________________ -->
+
+    <!-- -# Organization Experience -->
+    <article class="org-exp__container"
+        id="org-exp"
+        aria-label="Organization Experience"
+        role="region">
+
+        <h2 class="org-exp__title">
             ORGANIZATION EXPERIENCE
         </h2>
+        <hr>
 
-        <hr/>
+        <!-- --# Organization Experience 1 -->
+        <h3 class="org-exp__job-title"
+            aria-label="1st Organization Experience">
+            HIMPUNAN MAHASISWA TEKNIK KOMPUTER (HIMATEKKOM) - ITS, Surabaya, Indonesia <br>
+            Head of the Academic Division of the Student Welfare Department 
+            <time datetime="2021-03-01/2022-03-31">
+                (March 2021 - March 2022)
+            </time>
+        </h3>
 
-        <!-- *HIMATEKKOM Kabinet Prakarsa -->
-        <article class="organization-experience-himatekkom">
-            <h3>
-                Himpunan Mahasiswa Teknik Komputer (HIMATEKKOM), ITS - Surabaya, Indonesia
-            </h3>
-
-            <p>
-                Head of the Academic Division of the Student Welfare Department (
-                <time datetime="2021">
-                    2021
-                </time>
-                -
-                <time datetime="2022">
-                    2022
-                </time>
-                )
-            </p>
-
-            <ul>
+        <ul class="org-exp__brief-points-container"
+            aria-label="Brief Points of 1st Organization Experience">
+            <div class="org-exp__brief-points-item">
                 <li>
-                    Partnered with 2 internal divisions (administrative and data management) within Student Welfare department for executing 4+ welfare projects according to schedule.
+                    Partnered with 2 internal divisions (administrative and data management) within Student Welfare department
+                    for executing 4+ welfare projects according to schedule.
                 </li>
                 <li>
-                    Enhanced Computer Engineering students academic performance through coordinated 5+ mentoring online sessions on core subjects, and achieving 70% participant satisfaction (post-mentoring survey).
+                    Enhanced Computer Engineering students academic performance through coordinated 5+ mentoring online
+                    sessions on core subjects, and achieving 70% participant satisfaction (post-mentoring survey).
                 </li>
                 <li>
-                    Liaised between 30+ Computer Engineering students and campus Student Council to streamline tuition refund procedures, ensuring compliance with ≤10 semester credit units (SKS) eligibility policies during thesis/bootcamp periods.
+                    Liaised between 30+ Computer Engineering students and campus Student Council to streamline tuition refund procedures, 
+                    ensuring compliance with ≤10 semester credit units (SKS) eligibility policies during thesis/bootcamp periods.
                 </li>
                 <li>
-                    Executed cross-cohort data collection (200+ students from freshman to 6th academic year) utilizing Google Sheets to optimize scholarship allocations and mentorship targeting.
+                    Executed cross-cohort data collection (200+ students from freshman to 6th academic year) utilizing
+                    Google Sheets to optimize scholarship allocations and mentorship targeting
                 </li>
-            </ul>
-        </article>
+            </div>
+        </ul>
 
-        <!-- *Mage 5 & 6 Combined -->
-        <article class="organization-experience-mage">
-            <h3>
-                Multimedia and Game Event (MAGE 5-6), ITS - Surabaya, Indonesia
-            </h3>
+        <!-- --# Organization Experience 2 -->
+        <h3 class="org-exp__job-title"
+            aria-label="2nd Organization Experience">
+            MULTIMEDIA AND GAME EVENT (MAGE 5-6) - ITS, Surabaya, Indonesia <br>
+            PR Senior Staff, MAGE 6 
+            <time datetime="2021">
+                (2021)
+            </time>
+            | PR Junior Staff, MAGE 5
+            <time datetime="2022">
+                (2022)
+            </time>
+        </h3>
 
-            <p>
-                PR Senior Staff, MAGE 6 (
-                    <time datetime="2021">
-                        2021
-                    </time>
-                    ) | PR Junior Staff, MAGE 5 (
-                    <time datetime="2022">
-                        2022
-                    </time>
-                    )
-            </p>
-
-            <ul>
+        <ul class="org-exp__brief-points-container"
+            aria-label="Brief Points of 2nd Organization Experience">
+            <div class="org-exp__brief-points-item">
                 <li>
                     Drove social media engagement via 20+ interactive Q&A Stories (MAGE 5).
                 </li>
                 <li>
-                    Mentored 5 juniors in MAGE 6 to design social media content about the virtual event, via audience-centric strategies (interactive Q&As and targeted message updates) during pandemic constraints.
+                    Mentored 5 juniors in MAGE 6 to design social media content about the virtual event, via audience-centric strategies
+                    (interactive Q&As and targeted message updates) during pandemic constraints.
                 </li>
                 <li>
-                    Managed 3 social media platforms (IG, LINE, WhatsApp) to resolve 100+ public inquiries related to MAGE and Computer Engineering with less than 24h response time.
+                    Managed 3 social media platforms (IG, LINE, WhatsApp) to resolve 100+ public inquiries related to MAGE and Computer
+                    Engineering with less than 24h response time.
                 </li>
                 <li>
                     Supported cross-team operations to ensure 100% on-schedule delivery for 5 competition categories (avg. 20+ teams each).
                 </li>
-            </ul>
-        </article>
-    </section>
+            </div>
+        </ul>
+    </article>
+    <!-- -# _______________________ -->
+    
+    <!-- -# Educational Background -->
+    <article 
+        class="education__container"
+        id="education">
 
-    <!-- Educational Background -->
-    <section id="education">
-        <h2>
+        <h2 class="education__title">
             EDUCATION
         </h2>
+        <hr>
 
-        <hr/>
+        <!-- --# Education 1 -->
+        <h3 class="education__institution-name">
+            Formal | Institute of Technology Sepuluh Nopember (ITS) - Surabaya, Indonesia
+            <time datetime="2018-08/2024-09">
+                (August 2018 - September 2024)
+            </time>
+            <br>Bachelor of Computer Engineering - GPA 3.09/4.00
+        </h3>
 
-        <!-- *Bachelor's Degree in Computer Engineering -->
-        <article class="formal-education-college">
-            <h3>
-                Formal | Institute of Technology Sepuluh Nopember (
-                <time datetime="2018">
-                    2018
-                </time>
-                -
-                <time datetime="2024">
-                    2024
-                </time>
-                )
-            </h3>
-    
-            <p>
-                Bachelor of Computer Engineering - GPA 3.09/4.00
-            </p>
-    
-            <ul>
+        <ul class="education__brief-points-container">
+            <div class="education__brief-points-item">
                 <li>
-                    Developed programming foundational skills in problem-solving, system analysis, and debugging through hardware/software projects. 
+                    Developed programming foundational skills in problem-solving, system analysis, and debugging through hardware/software projects.
                 </li>
                 <li>
                     Applied algorithmic principles to optimize code efficiency through various programming simulations (C, C++, C#, Kotlin).
                 </li>
-            </ul>
-        </article>
+            </div>
+        </ul>
 
-        <!-- *Self-Led Learning -->
-        <article class="informal-education-self-led">
-            <h3>
-                Informal | Self-Led Learning
-            </h3>
-    
-            <p>
-                Front End Development (
-                <time datetime="2024-07">
-                    July 2024
-                </time>
-                - Present
-                )
-            </p>
-            <ul>
-                <li>
-                    Developed 5+ practical projects with HTML/CSS/JavaScript. <br/>
-                    [Portfolio Site, Todo List App, QR Code Reader]
-                </li>
-                <li>
-                    Utilized the Frontend Developer learning path from roadmap.sh website to build core competencies. <br/>
-                    [Modern CSS, React, Tailwind, API Integration]
-                </li>
-                <li>
-                    Improved problem-solving skills through 10+ coding challenges on LeetCode. <br/>
-                    [GitHub Copilot, DeepSeek R1]
-                </li>
-            </ul>
-        </article>
+        <!-- --# Education 2 -->
+        <h3 class="education__institution-name">
+            Non-Formal | Self-Led Learning
+            <time datetime="2024-12/Present">
+                (December 2024 - Present)
+            </time>
+            <br>Entry Level Front-End Development
+        </h3>
 
-        <!-- *Bangkit Academy 2022 -->
-        <article class="informal-education-bangkit-academy">
-            <h3>
-                Informal | Bangkit Academy 2022 (
-                    <time datetime="2022-02"> 
-                        February 2022 
-                    </time>
-                    -
-                    <time datetime="2022-07">
-                        July 2022
-                    </time>
-                    )
-            </h3>
-    
-            <p>
-                Mobile Development Path - Android Developer
-            </p>
-            <ul>
+        <ul class="education__brief-points-container">
+            <div class="education__brief-points-item">
                 <li>
-                    Implemented MVVM architecture in Android projects, solidifying my understanding about 
-                    principle in Separation of Concerns, which I adopt to cleanly structure React.js components.
+                    Developed 5+ practical projects with HTML/CSS/JavaScript.
+                    <br>[Portfolio Site]
                 </li>
                 <li>
-                    Independently learnt UI/UX design principle during my time at Bangkit Academy, practicing
-                    Figma to implement user-centered interfaces.
+                    Utilized the Frontend Developer learning path from roadmap.sh website to build core competencies.
+                    <br>[Modern CSS, React, Tailwind, API Integration]
                 </li>
-            </ul>
-        </article>
-    </section>
+                <li>
+                    Leveraged AI pair-programming for cleaner code refactoring and bug resolution.
+                    <br>[GitHub Copilot, DeepSeek R1, Google AI Studio]
+                </li>
+            </div>
+        </ul>
+    </article>
+    <!-- -# ______________________ -->
 
-    <!-- Skills -->
-    <section id="skills">
-        <h2>
+    <!-- -# Skills -->
+    <article class="skills__container"
+        id="skills"
+        aria-label="Skills"
+        role="region">
+
+        <h2 class="skills__title">
             SKILLS
         </h2>
-        
-        <hr/>
+        <hr>
 
-        <!-- Technical Skills -->
-        <article class="technical-skills">
-            <h3>
-                Technical Skills
-            </h3>
-        
-            <p>
-                HTML, CSS, JavaScript, TailwindCSS, React.js, Responsive Design.
-            </p>
-        </article>
+        <!-- --# Technical Skills -->
+        <h3 class="skills__category-name">
+            TECHNICAL SKILLS
+        </h3>
 
-        <!-- Tools -->
-        <article class="tools">
-            <h3>
-                Tools
-            </h3>
+        <p class="skills__brief-description"
+            aria-label="includes">
+            HTML, CSS, JavaScript, TailwindCSS, React.js, Responsive Design.
+        </p>
 
-            <p>
-                VS Code, Figma, Chrome DevTools, REST API Integration, GitHub, GitHub Copilot.
-            </p>
-        </article>
+        <!-- --# Tools -->
+        <h3 class="skills__category-name">
+            TOOLS
+        </h3>
 
-        <!-- UI/UX -->
-        <article class="ui-ux-skills">
-            <h3>
-                UI/UX Design
-            </h3>
+        <p class="skills__brief-description"
+            aria-label="includes">
+            VS Code, Figma, Chrome DevTools, REST API Integration, GitHub, GitHub Copilot.
+        </p>
 
-            <p>
-                Wireframing, Prototyping (Figma).
-            </p>
-        </article>
+        <!-- --# UI/UX Design -->
+        <h3 class="skills__category-name">
+            UI/UX DESIGN
+        </h3>
 
-        <!-- Additional Soft Skills -->
-        <article class="additional-skills">
-            <h3>
-                Additional Skills
-            </h3>
+        <p class="skills__brief-description"
+            aria-label="includes">
+            Wireframing & Prototyping (Figma).
+        </p>
 
-            <p>
-                Problem-Solving, Teamwork, Communication, Agile Methodology.
-            </p>
-        </article>
-    </section>
+        <!-- --# Additional Skills -->
+        <h3 class="skills__category-name">
+            ADDITIONAL SKILLS
+        </h3>
+
+        <p class="skills__brief-description"
+            aria-label="includes">
+            Problem-Solving, Teamwork, Communication, Agile Methodology.s
+        </p>
+    </article>
+    <!-- -# _____ -->
 </main>
-<!-- # End of MAIN CONTENT -->
+<!-- # End of Main -->
 
 <!-- # FOOTER -->
 <footer>
-    <section id="footer">
-        <p>
-            &copy; 2023 Misael Randy
-        </p>
-    </section>
+    <!-- -# Copyright Info -->
+    <p class="copyright-info">
+        &copy; June 2025, Misael Randy Limpaty
+    </p>
+    <!-- -# ______________ -->
 </footer>
-<!-- # End of FOOTER -->
+<!-- # End of Footer -->
 </body>
 
 </html>
