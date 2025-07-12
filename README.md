@@ -6,9 +6,9 @@ It's me Misael Randy Limpaty (ElMyosotisCode) your future Front End Developer Ex
 
 This project is the continuation of "ATS Based CV".
 
-In this project I added all of content, text, and paragraph I want to show in my CV. ✌
-
 --
+
+In this project I added all of content, text, and paragraph I want to show in my CV. ✌
 
 ## Learning Module Session 2 -> HTML Semantics (Elements and Core Attributes)
 
