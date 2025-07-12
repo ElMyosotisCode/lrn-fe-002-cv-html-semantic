@@ -14,7 +14,7 @@ In this project I added all of content, text, and paragraph I want to show in my
 
 In this session, I learned about the importance of using semantic HTML elements to improve accessibility and SEO, such as:
 - HTML Semantic Elements (header, footer, article, section, nav, aside)
-- HTML Core Attributes (id, class, style, title)
+- HTML Core Attributes (`id`, `class`, `style`, `title`)
 - HTML Accessibility (using `aria` attributes for better screen reader support)
 
 ## Screenshots
