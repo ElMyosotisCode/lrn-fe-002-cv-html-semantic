@@ -10,8 +10,12 @@ In this project I added all of content, text, and paragraph I want to show in my
 
 --
 
-What I learned in this project is how to use semantic HTML tags to make my web page more accessible and SEO friendly.
-Also I learned how to use `aria` attributes to make my web page more accessible for screen readers.
+## Learning Module Session 2 -> HTML Semantics (Elements and Core Attributes)
+
+In this session, I learned about the importance of using semantic HTML elements to improve accessibility and SEO, such as:
+- HTML Semantic Elements (header, footer, article, section, nav, aside)
+- HTML Core Attributes (id, class, style, title)
+- HTML Accessibility (using `aria` attributes for better screen reader support)
 
 ## Screenshots
 
