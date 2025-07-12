@@ -10,7 +10,7 @@ In this project I added all of content, text, and paragraph I want to show in my
 
 --
 
-## Learning Module Session 2 -> HTML Semantics (Elements and Core Attributes)
+## Learning Module Session 4 -> HTML Semantics (Elements and Core Attributes)
 
 In this session, I learned about the importance of using semantic HTML elements to improve accessibility and SEO, such as:
 - HTML Semantic Elements (header, footer, article, section, nav, aside)
